@@ -1,7 +1,7 @@
 {
   "name": "ToxicLeo-MD",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "Afx-ToxicLeo/akash",
+  "repository": "https://github.com/Afx-ToxicLeo/Leo",
   "logo": "https://i.postimg.cc/pXZW2gSv/null-20220918-WA0002.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
