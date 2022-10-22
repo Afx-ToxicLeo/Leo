@@ -1,7 +1,24 @@
 {
-	"name": "naze",
-	"description": "WhatsApp Bot Using Lib Baileys",
-	"repository": "https://github.com/nazedev/naze-md",
-	"logo": "https://node-js-sample.herokuapp.com/node.png",
-	"keywords": ["multi-device"]
+  "name": "ToxicLeo-MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "Afx-ToxicLeo/akash",
+  "logo": "https://i.postimg.cc/pXZW2gSv/null-20220918-WA0002.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
