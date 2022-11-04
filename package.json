@@ -21,7 +21,7 @@
   "author": "Naze Dev.",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.1.0",
+    "@adiwajshing/baileys": "git+https://github.com/Afx-Abu/Baileys.git",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^3.0.0",
     "awesome-phonenumber": "^2.64.0",
